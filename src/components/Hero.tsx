@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Shield, Lock, FileCheck } from 'lucide-react';
+import { Shield, Lock, FileCheck, Key } from 'lucide-react';
 import React from 'react';
 
 export default function Hero() {
@@ -21,10 +21,12 @@ export default function Hero() {
           transition={{ duration: 2 }}
           className="max-w-4xl mx-auto text-center"
         >
-          <h1 className="text-5xl md:text-6xl font-bold mb-6" style={{ fontFamily: 'Cairo, sans-serif' }}>
+          <h1 className="text-5xl md:text-6xl font-bold mb-8" style={{ fontFamily: 'Cairo, sans-serif', textShadow: '2px 4px 6px rgba(0, 0, 0, 0.5)' }}>
             Africa <span style={{ color: '#00A675' }}>Safe</span>mind
           </h1>
-          <p className="text-xl md:text-2xl mb-8 text-gray-200" style={{ fontFamily: 'Open Sans, sans-serif' }}>
+         
+          <p className="text-xl md:text-2xl mb-8 text-gray-200" style={{ fontFamily: 'Open Sans, sans-serif', textShadow: '1px 2px 4px rgba(0, 0, 0, 0.4)' }}>
+            Une Société de distrubuteur officel du produit Nevermind dans plus de 20 pays africains.
             Votre Partenaire en Sécurité Documentaire Post-Quantique
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-12">
@@ -35,9 +37,8 @@ export default function Hero() {
                 className="px-8 py-3 bg-[#31896E] rounded-full font-semibold hover:bg-[#00A675] transition-colors"
                 style={{ fontFamily: 'Cairo, sans-serif' }}
               >
-              
                 Découvrir Nevermind
-                </motion.button>
+              </motion.button>
             </a>
             <a href="/contact">
               <motion.button
@@ -47,7 +48,7 @@ export default function Hero() {
                 style={{ fontFamily: 'Cairo, sans-serif' }}
               >
                 Contactez-nous
-                </motion.button>
+              </motion.button>
             </a>
           </div>
         </motion.div>
@@ -56,34 +57,52 @@ export default function Hero() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 2, delay: 0.2 }}
-          className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto mt-16"
+          className="grid md:grid-cols-4 gap-6 max-w-8xl mx-auto mt-16"
         >
-          <div className="bg-white/10 backdrop-blur-lg p-6 rounded-xl">
-            <Shield className="w-12 h-12 mb-4 text-[#00A675]" />
-            <h3 className="text-xl font-semibold mb-2" style={{ fontFamily: 'Cairo, sans-serif', color: '#ffff' }}>
+          <div className="bg-white/10 backdrop-blur-lg p-4 rounded-xl flex flex-col items-center">
+            <div className="flex items-center justify-center w-14 h-14 mb-4 rounded-full">
+              <Shield className="w-12 h-12 text-[#00A675]" />
+            </div>
+            <h3 className="text-xl font-semibold mb-2 text-center" style={{ fontFamily: 'Cairo, sans-serif', color: '#ffff' }}>
               Technologie Post-Quantique
             </h3>
-            <p className="text-gray-200" style={{ fontFamily: 'Open Sans, sans-serif' }}>
+            <p className="text-gray-200 text-center" style={{ fontFamily: 'Open Sans, sans-serif' }}>
               Protection innovante contre les attaques quantiques futures.
             </p>
           </div>
-          
-          <div className="bg-white/10 backdrop-blur-lg p-6 rounded-xl">
-            <Lock className="w-12 h-12 mb-4 text-[#00A675]" />
-            <h3 className="text-xl font-semibold mb-2" style={{ fontFamily: 'Cairo, sans-serif', color: '#ffff' }}>
-              Sécurité Renforcée
+
+          <div className="bg-white/10 backdrop-blur-lg p-4 rounded-xl flex flex-col items-center">
+            <div className="flex items-center justify-center w-14 h-14 mb-4 rounded-full">
+              <Key className="w-12 h-12 text-[#00A675]" />
+            </div>
+            <h3 className="text-xl font-semibold mb-2 text-center" style={{ fontFamily: 'Cairo, sans-serif', color: '#ffff' }}>
+              Centré sur l'utilisateur
             </h3>
-            <p className="text-gray-200" style={{ fontFamily: 'Open Sans, sans-serif' }}>
-              Triple chiffrement et authentification biométrique.
+            <p className="text-gray-200 text-center" style={{ fontFamily: 'Open Sans, sans-serif' }}>
+              Responsabilité fiduciaire engagée et Notarisation des actes.
             </p>
           </div>
-          
-          <div className="bg-white/10 backdrop-blur-lg p-6 rounded-xl">
-            <FileCheck className="w-12 h-12 mb-4 text-[#00A675]" />
-            <h3 className="text-xl font-semibold mb-2" style={{ fontFamily: 'Cairo, sans-serif', color: '#ffff' }}>
+      
+          <div className="bg-white/10 backdrop-blur-lg p-4 rounded-xl flex flex-col items-center">
+            <div className="flex items-center justify-center w-14 h-14 mb-4 rounded-full">
+              <Lock className="w-12 h-12 text-[#00A675]" />
+            </div>
+            <h3 className="text-xl font-semibold mb-2 text-center" style={{ fontFamily: 'Cairo, sans-serif', color: '#ffff' }}>
+              Sécurité Renforcée
+            </h3>
+            <p className="text-gray-200 text-center" style={{ fontFamily: 'Open Sans, sans-serif' }}>
+              Authentification vidéo et clés de chiffres auto-généré.
+            </p>
+          </div>
+
+          <div className="bg-white/10 backdrop-blur-lg p-4 rounded-xl flex flex-col items-center">
+            <div className="flex items-center justify-center w-14 h-14 mb-4 rounded-full">
+              <FileCheck className="w-12 h-12 text-[#00A675]" />
+            </div>
+            <h3 className="text-xl font-semibold mb-2 text-center" style={{ fontFamily: 'Cairo, sans-serif', color: '#ffff' }}>
               Conformité Proactive
             </h3>
-            <p className="text-gray-200" style={{ fontFamily: 'Open Sans, sans-serif' }}>
+            <p className="text-gray-200 text-center" style={{ fontFamily: 'Open Sans, sans-serif' }}>
               Anticipation des réglementations de sécurité mondiales.
             </p>
           </div>

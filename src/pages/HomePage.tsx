@@ -4,6 +4,7 @@ import About from '../components/About';
 import Features from '../components/Features';
 import Testimonials from '../components/Testimonials';
 import React from 'react';
+import PostQuantum from '../components/PostQuantum';
 
 export default function HomePage() {
   return (
@@ -13,6 +14,7 @@ export default function HomePage() {
       exit={{ opacity: 0 }}
     >
       <Hero />
+      <PostQuantum />
       <About />
       <Features />
       <Testimonials />

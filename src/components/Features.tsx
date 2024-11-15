@@ -11,24 +11,24 @@ export default function Features() {
 
   const features = [
     {
+      icon: Fingerprint,
+      title: "Authentification Vidéo Avancée",
+      description: "Reconnaissance faciale vidéo avec preuve de vie contre les robots"
+    },
+    {
       icon: Shield,
       title: "Cryptographie Post-Quantique",
       description: "Protection avancée contre les menaces quantiques futures"
     },
     {
-      icon: Lock,
-      title: "Triple Chiffrement",
-      description: "Sécurité maximale avec AES1024 et authentification multiniveau"
+      icon: Key,
+      title: "Centrée sur l'utilisateur",
+      description: "Création de clés hybrides et AES1024 selon les caractéristiques de la personne"
     },
     {
-      icon: Key,
+      icon: Lock,
       title: "Gestion des Accès",
       description: "Contrôle granulaire des permissions et traçabilité complète"
-    },
-    {
-      icon: Fingerprint,
-      title: "Authentification Biométrique",
-      description: "Reconnaissance faciale et contrôle d'accès avancé"
     }
   ];
 
@@ -57,9 +57,9 @@ export default function Features() {
               initial={{ opacity: 0, y: 20 }}
               animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
               transition={{ duration: 2, delay: index * 0.1 }}
-              className="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition-shadow"
+              className="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition-shadow text-center"
             >
-              <div className="w-14 h-14 rounded-lg flex items-center justify-center mb-6 bg-[#00A675]">
+              <div className="w-14 h-14 mx-auto flex items-center justify-center mb-6 bg-[#00A675] rounded-lg">
                 <feature.icon className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-semibold mb-3" style={{ fontFamily: 'Cairo, sans-serif', color: '#3D3D3D' }}>
@@ -82,7 +82,7 @@ export default function Features() {
             className="px-8 py-3 text-white rounded-full font-semibold transition-colors"
             style={{ backgroundColor: '#00A675', fontFamily: 'Cairo, sans-serif' }}
           >
-          <a href="/product">En savoir plus</a> 
+            <a href="https://getnevermind.com">En savoir plus</a>
           </motion.button>
         </motion.div>
       </div>

@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <h3 className="text-xl font-bold mb-4" style={{ fontFamily: 'Cairo, sans-serif' }}>
-             <img src="./src/assets/africasafe-removebg-preview.png" alt="" className='w-48 h-19'/>
+             <img src="https://res.cloudinary.com/dctwo7qtv/image/upload/v1731684457/africasafe-removebg-preview_wlkmtt.png" alt="" className='w-48 h-19'/>
             </h3>
             <p className="text-[#3D3D3D]" style={{ fontFamily: 'Open Sans, sans-serif' }}>
               Votre partenaire en sécurité documentaire post-quantique en Afrique.

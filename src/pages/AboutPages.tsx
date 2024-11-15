@@ -40,11 +40,11 @@ export default function AboutPage() {
               <h2 className="text-3xl font-bold mb-6">Notre Mission</h2>
               <p className="text-3D3D3D mb-6">
                 Africa Safemind s'engage à fournir des solutions de sécurité documentaire 
-                de pointe, permettant aux entreprises africaines de prospérer dans un 
+                de pointe, permettant aux entreprises africaines et agences gouvernementales de prospérer dans un 
                 environnement numérique sécurisé.
               </p>
               <p className="text-3D3D3D">
-                Notre expertise unique en cryptographie post-quantique nous permet 
+                Notre expertise unique en cryptographie post-quantique et centrée sur l'utilisateur nous permet 
                 d'anticiper et de protéger contre les menaces futures.
               </p>
             </motion.div>
@@ -58,7 +58,7 @@ export default function AboutPage() {
               <div className="bg-white p-6 rounded-lg shadow-lg">
                 <Shield className="w-12 h-12 text-green-600 mb-4" />
                 <h3 className="font-semibold mb-2">Protection</h3>
-                <p className="text-3D3D3D">Sécurité de niveau militaire</p>
+                <p className="text-3D3D3D">Sécurité de niveau défense</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-lg">
                 <Award className="w-12 h-12 text-green-600 mb-4" />
@@ -92,8 +92,7 @@ export default function AboutPage() {
           >
             <h2 className="text-3xl font-bold mb-4">Notre Équipe</h2>
             <p className="text-[3D3D3D] max-w-2xl mx-auto">
-              Une équipe d'experts passionnés par la sécurité numérique et dédiés 
-              à la protection de vos données.
+              Une équipe d'experts passionnés par la sécurité numérique et engagés dans la protection renforcée des données vitales de votre entreprise.
             </p>
           </motion.div>
 

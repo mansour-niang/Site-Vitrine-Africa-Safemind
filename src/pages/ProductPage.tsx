@@ -98,7 +98,7 @@ export default function ProductPage() {
             <h2 className="text-3xl font-bold mb-4" style={{ fontFamily: 'Cairo' }}>Technologies Clés</h2>
             <p className="text-gray-600 max-w-2xl mx-auto" style={{ fontFamily: 'Open Sans' }}>
               Une protection multicouche utilisant les dernières avancées 
-              en cryptographie post-quantique
+              en cryptographie post-quantique et centrée sur l'utilisateur
             </p>
           </motion.div>
 
@@ -107,17 +107,17 @@ export default function ProductPage() {
               {
                 icon: Shield,
                 title: "Chiffrement Multivarié Hybride",
-                description: "Système avancé de cryptographie post-quantique pour la sécurité des données"
+                description: "Système multi-breveté de cryptographie basée sur les caractéristiques de l'utilisateur"
               },
               {
                 icon: Lock,
-                title: "Triple Chiffrement",
-                description: "Protection en trois couches avec AES1024, jeton d'accès et ID secrète"
+                title: "Coffre-fort Triple Chiffrement",
+                description: "Par la clé QES1024 générée à la connexion, et puis par jeton d'accés et ID secrète"
               },
               {
                 icon: Fingerprint,
-                title: "Authentification Biométrique",
-                description: "Reconnaissance faciale et contrôle d'accès avancé"
+                title: "Authentification Vidéo Avancée",
+                description: "Reconnaissance faciale vidéo avec preuve de vie contre les robots"
               },
               {
                 icon: Key,

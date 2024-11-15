@@ -9,14 +9,14 @@ export default function Header() {
 
   return (
     <header className="fixed w-full z-50 bg-[#ffffff]/80 backdrop-blur-lg">
-      <nav className="container mx-auto px-6 py-4">
+      <nav className="container mx-auto px-6 py-2">
         <div className="flex items-center justify-between">
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             style={{ fontFamily: 'Cairo, sans-serif' }}
           >
-            <img src="./src/assets/SAFMIND-removebg-preview.png" alt="Logo" className='w-48 h-19'/>
+            <img src="https://res.cloudinary.com/dctwo7qtv/image/upload/v1731684457/SAFMIND-removebg-preview_n6pd13.png" alt="Logo" className='w-48 h-19'/>
           </motion.div>
 
           {/* Desktop Menu */}
