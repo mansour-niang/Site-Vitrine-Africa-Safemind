@@ -17,7 +17,6 @@ export default function HomePage() {
       <PostQuantum />
       <About />
       <Features />
-      <Testimonials />
     </motion.div>
   );
 }

@@ -28,7 +28,7 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4" style={{ fontFamily: 'Cairo, sans-serif' }}>Contact</h4>
             <ul className="space-y-2">
               <li className="text-[#3D3D3D]" style={{ fontFamily: 'Open Sans, sans-serif' }}>contact@africasafemind.com</li>
-              <li className="text-[#3D3D3D]" style={{ fontFamily: 'Open Sans, sans-serif' }}>+123 456 789</li>
+             {/* <li className="text-[#3D3D3D]" style={{ fontFamily: 'Open Sans, sans-serif' }}>+123 456 789</li>*/}
               <li className="text-[#3D3D3D]" style={{ fontFamily: 'Open Sans, sans-serif' }}>Dakar, Sénégal</li>
             </ul>
           </div>

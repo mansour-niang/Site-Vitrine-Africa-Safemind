@@ -99,19 +99,19 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                name: "Sarah Diallo",
+                name: "Colonel Patrick Martzinek",
                 role: "Directrice Générale",
-                image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=400"
+                image: "https://st2.depositphotos.com/1531183/5706/v/450/depositphotos_57064869-stock-illustration-unknown-person-silhouette-whith-blue.jpg"
               },
               {
-                name: "Marc Kouassi",
-                role: "Directeur Technique",
-                image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=400"
+                name: "Abdou NDAO",
+                role: "Président",
+                image: "https://st2.depositphotos.com/1531183/5706/v/450/depositphotos_57064869-stock-illustration-unknown-person-silhouette-whith-blue.jpg"
               },
               {
-                name: "Aminata Sy",
+                name: "Général Jacques Martin",
                 role: "Responsable Conformité",
-                image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=400"
+                image: "https://st2.depositphotos.com/1531183/5706/v/450/depositphotos_57064869-stock-illustration-unknown-person-silhouette-whith-blue.jpg"
               }
             ].map((member, index) => (
               <motion.div
@@ -125,7 +125,7 @@ export default function AboutPage() {
                 <img
                   src={member.image}
                   alt={member.name}
-                  className="w-full h-64 object-cover"
+                  className="w-full h-68 object-cover"
                 />
                 <div className="p-6">
                   <h3 className="text-xl font-semibold mb-2">{member.name}</h3>
